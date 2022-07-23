@@ -1,0 +1,23 @@
+{
+  "name": "cyt-script-06-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurrrrrrett3/cyt-script-06-tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurrrrrrett3/cyt-script-06-tasks/issues"
+  },
+  "homepage": "https://github.com/gurrrrrrett3/cyt-script-06-tasks#readme",
+  "dependencies": {
+    "node-yaml": "^4.0.1"
+  }
+}
