@@ -49,9 +49,7 @@ files.forEach((file) => {
     "",
     `${hexcolor}${bar} &fObjective: &7${objective}`,
     `${hexcolor}${bar} &fProgress: &7{${itemId}:progress}x&8/&7${progressSuffix}`,
-    "",
-    `${hexcolor}${bar} &fRewards:`,
-    `${hexcolor}${bar}   &7Cash: £${cashAmount}`,
+    ""
   ];
 
   data.display.name = `${hexcolor}${category} Task &8| &f${objective}`;
@@ -62,6 +60,8 @@ files.forEach((file) => {
     `&7You've completed the &a${objective} &7task!`,
     `&7Your rewards have been automatically given to you!`,
   ];
+
+  data.rewards = [""]
 
   //write
   yaml.writeSync(outDir + file, data);
