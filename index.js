@@ -54,8 +54,8 @@ files.forEach((file) => {
     `${hexcolor}${bar}   &7Cash: £${cashAmount}`,
   ];
 
+  data.display.name = `${hexcolor}${category} Task &8| &f${objective}`;
   data.display["lore-normal"] = newLines;
-
   data.display["lore-started"] = [""];
 
   data.rewardstring = [
